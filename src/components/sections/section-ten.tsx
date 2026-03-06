@@ -3,7 +3,7 @@ import { CtaButtonGreen } from "@/components/ui/cta-button-green";
 
 export function SectionTen() {
   return (
-    <section className="bg-[#0A0A0A] py-12 md:py-24">
+    <section id="pricing" className="bg-[#0A0A0A] py-12 md:py-24">
       <div className="section-container">
         {/* Title above grid */}
         <h2 className="mb-10 text-center font-tomorrow text-lg font-bold uppercase text-white md:mb-14 md:text-2xl">
@@ -57,7 +57,7 @@ export function SectionTen() {
             </div>
 
             {/* Green CTA */}
-            <CtaButtonGreen href="https://pay.kiwify.com.br/oJsHT18">Garantir Minha Vaga!</CtaButtonGreen>
+            <CtaButtonGreen href="https://pay.kiwify.com.br/NCzEsQ8">Garantir Minha Vaga!</CtaButtonGreen>
           </div>
 
           {/* ── Right Column: Urgency Card ── */}

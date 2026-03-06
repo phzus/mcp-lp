@@ -20,7 +20,7 @@ interface CtaButtonRedProps {
  */
 export function CtaButtonRed({
   children,
-  href = "https://pay.kiwify.com.br/oJsHT18",
+  href = "#pricing",
   className,
   onClick,
 }: CtaButtonRedProps) {

@@ -24,7 +24,7 @@ export function FinalCTA() {
         </p>
 
         <div className="mx-auto max-w-md">
-          <CtaButtonGreen href="https://pay.kiwify.com.br/oJsHT18">Garantir Minha Vaga!</CtaButtonGreen>
+          <CtaButtonGreen href="https://pay.kiwify.com.br/NCzEsQ8">Garantir Minha Vaga!</CtaButtonGreen>
         </div>
       </div>
     </section>
