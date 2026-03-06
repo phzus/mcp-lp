@@ -47,17 +47,17 @@ export function SectionTen() {
             <div className="mb-6 rounded-xl bg-white px-6 py-5 text-center">
               <p className="text-xs text-gray-600">Por: 12x de</p>
               <p className="font-tomorrow text-3xl font-extrabold text-gray-900 md:text-4xl">
-                R$ 149,70
+                R$ 258,25
               </p>
               <p className="mt-1 text-sm text-gray-600">
                 ou apenas{" "}
-                <span className="font-bold text-[#00C853]">R$ 1.497,00</span>{" "}
+                <span className="font-bold text-[#00C853]">R$ 2.497,00</span>{" "}
                 à vista!
               </p>
             </div>
 
             {/* Green CTA */}
-            <CtaButtonGreen>Garantir Minha Vaga!</CtaButtonGreen>
+            <CtaButtonGreen href="https://pay.kiwify.com.br/oJsHT18">Garantir Minha Vaga!</CtaButtonGreen>
           </div>
 
           {/* ── Right Column: Urgency Card ── */}

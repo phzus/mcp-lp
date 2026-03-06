@@ -17,14 +17,14 @@ export function FinalCTA() {
         </p>
 
         <p className="mb-1 font-tomorrow text-2xl font-extrabold text-[#D42727] md:text-3xl">
-          por 12x de R$ 149,70
+          por 12x de R$ 258,25
         </p>
         <p className="mb-8 text-sm text-white md:mb-10 md:text-base">
-          ou apenas R$ 1.497,00 à vista!
+          ou apenas R$ 2.497,00 à vista!
         </p>
 
         <div className="mx-auto max-w-md">
-          <CtaButtonGreen>Garantir Minha Vaga!</CtaButtonGreen>
+          <CtaButtonGreen href="https://pay.kiwify.com.br/oJsHT18">Garantir Minha Vaga!</CtaButtonGreen>
         </div>
       </div>
     </section>

@@ -37,8 +37,8 @@ export function SectionSix() {
 
           {/* CTA */}
           <div className="mx-auto mt-10 max-w-lg md:mt-14">
-            <CtaButtonRed>
-              Eu quero meu plano à prova de falhas!
+            <CtaButtonRed href="https://pay.kiwify.com.br/oJsHT18">
+              Acesso Exclusivo à Mentoria
             </CtaButtonRed>
           </div>
         </div>

@@ -30,7 +30,7 @@ export function Hero() {
       {/* ── Content ── */}
       <div className="section-container relative z-10 flex min-h-screen flex-col items-center justify-end pb-16 pt-12 md:pb-24">
         {/* H1 — Gradient on first part, white on second */}
-        <h1 className="mb-4 text-center font-tomorrow text-xl font-bold uppercase leading-tight md:mb-6 md:text-3xl md:leading-tight">
+        <h1 className="mb-4 text-center max-w-[1100px] font-tomorrow text-xl font-bold uppercase leading-tight md:mb-6 md:text-3xl md:leading-tight">
           <span className="text-gradient-hero">
             Mentoria Caixa Preta da Escala Gringa
           </span>{" "}
@@ -41,7 +41,7 @@ export function Hero() {
         </h1>
 
         {/* Subtitle — white, larger */}
-        <p className="mx-auto mb-8 max-w-3xl text-center text-sm leading-relaxed text-white md:mb-10 md:text-lg">
+        <p className="mx-auto mb-8 max-w-5xl text-center text-sm leading-relaxed text-white md:mb-10 md:text-2xl">
           Revelado pela primeira vez o arsenal completo de Estratégias Black que
           os maiores afiliados gringos usam em segredo, gerando mais de R$100
           MILHÕES só nos últimos 12 meses.
@@ -49,7 +49,7 @@ export function Hero() {
 
         {/* CTA Button */}
         <div className="w-full max-w-lg">
-          <CtaButtonRed>Desbloquear Meu Acesso à Caixa Preta</CtaButtonRed>
+          <CtaButtonRed href="https://pay.kiwify.com.br/oJsHT18">Desbloquear Meu Acesso à Caixa Preta</CtaButtonRed>
         </div>
       </div>
     </section>

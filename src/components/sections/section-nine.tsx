@@ -160,7 +160,7 @@ export function SectionNine() {
             milhão por dia.
           </p>
           <div className="mx-auto max-w-md">
-            <CtaButtonRed>Desbloquear Meu Acesso à Caixa Preta</CtaButtonRed>
+            <CtaButtonRed href="https://pay.kiwify.com.br/oJsHT18">Desbloquear Meu Acesso à Caixa Preta</CtaButtonRed>
           </div>
         </div>
       </div>

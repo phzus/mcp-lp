@@ -60,7 +60,7 @@ export function SectionThree() {
 
         {/* CTA */}
         <div className="mx-auto mt-10 max-w-md md:mt-14">
-          <CtaButtonBlue>Desbloquear Meu Acesso à Caixa Preta</CtaButtonBlue>
+          <CtaButtonBlue href="https://pay.kiwify.com.br/oJsHT18">Desbloquear Meu Acesso à Caixa Preta</CtaButtonBlue>
         </div>
       </div>
     </section>
