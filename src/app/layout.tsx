@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Mentoria Caixa Preta | Escala Gringa",
   description:
     "A primeira mentoria à prova de falhas para afiliados de Nutra no mercado americano. Fature +R$100K/dia como Super Afiliado nos EUA.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
