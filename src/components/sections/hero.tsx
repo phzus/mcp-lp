@@ -49,7 +49,7 @@ export function Hero() {
 
         {/* CTA Button */}
         <div className="w-full max-w-lg">
-          <CtaButtonRed href="https://pay.kiwify.com.br/oJsHT18">Desbloquear Meu Acesso à Caixa Preta</CtaButtonRed>
+          <CtaButtonRed>Desbloquear Meu Acesso à Caixa Preta</CtaButtonRed>
         </div>
       </div>
     </section>

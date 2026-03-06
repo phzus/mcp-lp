@@ -7,36 +7,45 @@ import {
 
 const faqs = [
   {
-    q: "Essa mentoria funciona para iniciantes?",
-    a: "Sim. A Mentoria Caixa Preta foi desenhada tanto para quem está começando no mercado de afiliação na gringa quanto para quem já tem operação rodando. O conteúdo compartilha o método validado por +50 afiliados que bateram R$1 milhão por dia!",
+    question: "Essa mentoria funciona para iniciantes?",
+    answer:
+      "Sim. A Mentoria Caixa Preta foi desenhada tanto para quem está começando no mercado de afiliação na gringa quanto para quem já tem operação rodando. O conteúdo compartilha o método validado por +50 afiliados que bateram R$1 milhão por dia!",
   },
   {
-    q: "Eu preciso falar inglês para trabalhar como afiliado nos Estados Unidos?",
-    a: "Não. Hoje a inteligência artificial faz todo o trabalho de tradução através de prompts que serão ensinados dentro da mentoria. Basta aplicar.",
+    question:
+      "Eu preciso falar inglês para trabalhar como afiliado nos Estados Unidos?",
+    answer:
+      "Não. Hoje a inteligência artificial faz todo o trabalho de tradução através de prompts que serão ensinados dentro da mentoria. Basta aplicar.",
   },
   {
-    q: "Eu preciso de muito dinheiro para começar?",
-    a: "É recomendado que tenha, no mínimo, R$5.000 de caixa para rodar tráfego. É o valor mínimo para que consigamos extrair resultado dos seus primeiros testes com as ofertas já validadas da operação.",
+    question: "Eu preciso de muito dinheiro para começar?",
+    answer:
+      "É recomendado que tenha, no mínimo, R$5.000 de caixa para rodar tráfego. É o valor mínimo para que consigamos extrair resultado dos seus primeiros testes com as ofertas já validadas da operação.",
   },
   {
-    q: "Quanto tempo eu tenho acesso ao conteúdo?",
-    a: "O acesso ao conteúdo e ao Acompanhamento Premium será através de uma área de membros onde cada encontro será publicado em menos de 24h depois da mentoria ao vivo no Zoom. Você pode revisitar o conteúdo quantas vezes quiser.",
+    question: "Quanto tempo eu tenho acesso ao conteúdo?",
+    answer:
+      "O acesso ao conteúdo e ao Acompanhamento Premium será através de uma área de membros onde cada encontro será publicado em menos de 24h depois da mentoria ao vivo no Zoom. Você pode revisitar o conteúdo quantas vezes quiser.",
   },
   {
-    q: "É possível parcelar no boleto?",
-    a: "Não. Somente PIX e Cartão de Crédito.",
+    question: "É possível parcelar no boleto?",
+    answer: "Não. Somente PIX e Cartão de Crédito.",
   },
   {
-    q: "Quando recebo acesso às ofertas validadas?",
-    a: "No primeiro encontro da mentoria. São 7 ofertas já validadas liberadas para você começar a rodar imediatamente nos maiores nichos do mercado americano.",
+    question: "Quando recebo acesso às ofertas validadas?",
+    answer:
+      "No primeiro encontro da mentoria. São 7 ofertas já validadas liberadas para você começar a rodar imediatamente nos maiores nichos do mercado americano.",
   },
   {
-    q: "Pode entrar com sócio?",
-    a: "Não. O acesso é individual. Caso queira que o seu sócio participe junto com você, cobramos uma taxa adicional de 50% do valor do produto. Basta nos chamar no WhatsApp depois do fechamento das 200 vagas.",
+    question: "Pode entrar com sócio?",
+    answer:
+      "Não. O acesso é individual. Caso queira que o seu sócio participe junto com você, cobramos uma taxa adicional de 50% do valor do produto. Basta nos chamar no WhatsApp depois do fechamento das 200 vagas.",
   },
   {
-    q: "Tenho outras dúvidas que não encontrei aqui, quem pode me respondê-las?",
-    a: "Caso a sua dúvida não tenha sido respondida nesta página, entre em contato com minha equipe de suporte através do WhatsApp.",
+    question:
+      "Tenho outras dúvidas que não encontrei aqui, quem pode me respondê-las?",
+    answer:
+      "Caso a sua dúvida não tenha sido respondida nesta página, entre em contato com minha equipe de suporte através do WhatsApp.",
   },
 ];
 
@@ -57,10 +66,10 @@ export function FAQ() {
                 className="rounded-lg border border-white/10 bg-white/5 px-5"
               >
                 <AccordionTrigger className="min-h-12 py-4 text-left text-sm font-semibold text-white hover:no-underline md:text-base [&[data-state=open]>svg]:text-[#D42727]">
-                  {faq.q}
+                  {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="pb-4 text-sm leading-relaxed text-gray-400">
-                  {faq.a}
+                  {faq.answer}
                 </AccordionContent>
               </AccordionItem>
             ))}

@@ -12,7 +12,7 @@ interface CtaButtonGreenProps {
  */
 export function CtaButtonGreen({
   children,
-  href = "#",
+  href = "https://pay.kiwify.com.br/oJsHT18",
   className,
 }: CtaButtonGreenProps) {
   return (

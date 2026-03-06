@@ -71,7 +71,7 @@ export function SectionEight() {
 
         {/* CTA */}
         <div className="mx-auto mt-10 max-w-md md:mt-14">
-          <CtaButtonRed href="https://pay.kiwify.com.br/oJsHT18">Desbloquear Meu Acesso à Caixa Preta</CtaButtonRed>
+          <CtaButtonRed>Desbloquear Meu Acesso à Caixa Preta</CtaButtonRed>
         </div>
       </div>
     </section>

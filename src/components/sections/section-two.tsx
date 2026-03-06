@@ -59,7 +59,7 @@ export function SectionTwo() {
 
         {/* CTA */}
         <div className="mx-auto mt-10 max-w-md md:mt-14">
-          <CtaButtonRed href="https://pay.kiwify.com.br/oJsHT18">Eu quero aplicar AGORA</CtaButtonRed>
+          <CtaButtonRed>Eu quero aplicar AGORA</CtaButtonRed>
         </div>
       </div>
     </section>

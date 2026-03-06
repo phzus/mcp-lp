@@ -75,9 +75,9 @@ export function SectionTen() {
                 <span className="mt-0.5 text-lg">🔒</span>
                 <p className="text-sm text-gray-300 md:text-base">
                   <strong className="text-white">
-                    Acesso por apenas R$1.497
+                    Acesso por apenas R$2.497
                   </strong>{" "}
-                  — depois da live, o valor sobe para R$2.497. Sem exceção.
+                  — valor exclusivo para quem garantir agora. Sem exceção.
                 </p>
               </div>
               <div className="flex items-start gap-3">
