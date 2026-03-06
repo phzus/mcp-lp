@@ -1,0 +1,13 @@
+# Forçar a leitura do index.html (Next.js LP) ANTES do index.php (WordPress)
+DirectoryIndex index.html index.php
+
+# Regras do WordPress (Mantenha para que wp-admin e outras páginas continuem funcionando)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
