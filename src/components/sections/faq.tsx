@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "Quando recebo acesso às ofertas validadas?",
     answer:
-      "No primeiro encontro da mentoria. São 7 ofertas já validadas liberadas para você começar a rodar imediatamente nos maiores nichos do mercado americano.",
+      "No primeiro encontro da mentoria. Voces receberão as principais ofertas do mercado que já estão validadas e escalando, prontas para você rodar.",
   },
   {
     question: "Pode entrar com sócio?",
