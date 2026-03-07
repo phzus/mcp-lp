@@ -24,12 +24,14 @@ export function CtaButtonGreen({
         className={cn(
           "relative flex w-full items-center justify-center gap-3 text-center",
           "rounded-xl bg-gradient-to-b from-[#4CDE77] to-[#00C853]",
-          "min-h-14 px-8 py-5 md:px-10",
-          "text-sm font-bold uppercase tracking-wider text-black md:text-base",
+          "min-h-14 px-6 py-5 md:px-8",
+          "text-base font-bold uppercase text-black md:text-lg md:whitespace-nowrap",
           "shadow-lg transition-opacity hover:opacity-90 active:opacity-80"
         )}
       >
-        {children}
+        <span className="max-w-[200px] leading-tight md:max-w-none">
+          {children}
+        </span>
         <Image
           src="/Vector.svg"
           alt=""

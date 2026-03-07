@@ -12,9 +12,9 @@ const items = [
 export function SectionSix() {
   return (
     <section className="bg-black py-12 md:py-24">
-      <div className="mx-auto w-[95%] max-w-[1400px]">
+      <div className="mx-auto w-[92%] max-w-[1400px]">
         {/* Main white card */}
-        <div className="rounded-2xl border-2 border-[#ED453F] bg-white px-6 py-10 md:px-12 md:py-16">
+        <div className="border-2 border-[#ED453F] bg-white px-4 py-6 md:px-12 md:py-16">
           {/* Title */}
           <h2 className="mb-10 text-center font-tomorrow text-xl font-bold uppercase leading-tight text-gray-900 md:mb-14 md:text-3xl">
             A <span className="text-[#ED453F]">CAIXA PRETA</span> FUNCIONA PARA
@@ -24,11 +24,11 @@ export function SectionSix() {
           {/* Items */}
           <div className="mx-auto max-w-3xl space-y-5 md:space-y-6">
             {items.map((text, i) => (
-              <div key={i} className="flex items-start gap-4">
+              <div key={i} className="flex flex-col items-start gap-2">
                 <div className="shrink-0 pt-1">
                   <IconCircle />
                 </div>
-                <p className="text-sm leading-relaxed text-gray-800 md:text-base">
+                <p className="text-sm font-bold leading-relaxed text-gray-800 md:text-base">
                   {text}
                 </p>
               </div>

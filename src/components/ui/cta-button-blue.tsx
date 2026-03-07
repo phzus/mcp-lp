@@ -28,7 +28,7 @@ export function CtaButtonBlue({
       )}
     >
       {/* Black gap between frame and button */}
-      <div className="rounded-[10px] bg-black p-[3px]">
+      <div className="rounded-[13px] bg-black p-[4px]">
         {/* Actual button */}
         <a
           href={href}
@@ -36,13 +36,15 @@ export function CtaButtonBlue({
           className={cn(
             "flex w-full items-center justify-center gap-3 text-center",
             "rounded-lg bg-gradient-to-b from-[#278CD4] to-[#002A72]",
-            "min-h-12 px-8 py-5 md:px-10",
-            "text-sm font-bold uppercase tracking-wider text-white md:text-base",
+            "min-h-12 px-6 py-5 md:px-8",
+            "text-base font-bold uppercase text-white md:text-lg md:whitespace-nowrap",
             "shadow-[0_-3px_30.459px_0_rgba(0,107,221,0.23)]",
             "transition-opacity hover:opacity-90 active:opacity-80"
           )}
         >
-          {children}
+          <span className="max-w-[200px] leading-tight md:max-w-none">
+            {children}
+          </span>
           <Image
             src="/Vector.svg"
             alt=""

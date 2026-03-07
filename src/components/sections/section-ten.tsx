@@ -84,7 +84,7 @@ export function SectionTen() {
                 <span className="mt-0.5 text-lg">🔒</span>
                 <p className="text-sm text-gray-300 md:text-base">
                   <strong className="text-white">
-                    Entrada direta com CPA de $220 nas ofertas
+                    Entrada direta com CPA de $200 nas ofertas
                   </strong>{" "}
                   — enquanto quem entrar depois começa com $170, você já entra
                   ganhando mais no leilão desde a primeira venda.

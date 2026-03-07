@@ -7,7 +7,7 @@ export function BannerIntermediary() {
       }}
     >
       <div className="section-container">
-        <p className="text-center font-tomorrow text-base font-bold uppercase tracking-wide text-white md:text-xl">
+        <p className="text-center font-tomorrow text-base font-bold uppercase text-white md:text-xl">
           Essa é apenas uma das mais de 100 estratégias dentro da Caixa Preta.
         </p>
       </div>

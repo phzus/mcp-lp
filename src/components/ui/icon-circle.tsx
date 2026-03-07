@@ -19,19 +19,19 @@ interface IconCircleProps {
  */
 export function IconCircle({
   className,
-  size = 40,
+  size = 24,
   children,
 }: IconCircleProps) {
   return (
     <div
       className={cn(
-        "flex shrink-0 items-center justify-center rounded-full",
+        "flex shrink-0 items-center justify-center rounded-md",
         "bg-gradient-to-r from-[#EE1330] to-[#CF1322]",
         className
       )}
       style={{ width: size, height: size }}
     >
-      {children || <Check className="text-white" size={size * 0.5} strokeWidth={3} />}
+      {children || <Check className="text-white" size={size * 0.8} strokeWidth={2} />}
     </div>
   );
 }

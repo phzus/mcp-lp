@@ -63,8 +63,7 @@ export function SectionEight() {
             }}
           >
             <h3 className="font-tomorrow text-sm font-bold uppercase text-white md:text-base">
-              NO PRIMEIRO ENCONTRO DA MENTORIA, 7 OFERTAS JÁ VALIDADAS SERÃO
-              LIBERADAS PARA VOCÊ COMEÇAR A RODAR IMEDIATAMENTE.
+              No primeiro encontro da mentoria, vocês receberão as principais ofertas do mercado que já estão validadas e escalando, prontas para você rodar.
             </h3>
           </div>
         </div>
