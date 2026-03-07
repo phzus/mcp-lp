@@ -24,7 +24,7 @@ export function CtaButtonGreen({
         className={cn(
           "relative flex w-full items-center justify-center gap-3 text-center",
           "rounded-xl bg-gradient-to-b from-[#4CDE77] to-[#00C853]",
-          "min-h-14 px-6 py-5 md:px-8",
+          "min-h-14 px-6 py-6 md:px-8",
           "text-base font-bold uppercase text-black md:text-lg md:whitespace-nowrap",
           "shadow-lg transition-opacity hover:opacity-90 active:opacity-80"
         )}

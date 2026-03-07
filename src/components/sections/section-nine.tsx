@@ -103,12 +103,12 @@ export function SectionNine() {
 
         {/* ── Iceberg Block ── */}
         <div className="mb-12 text-center md:mb-16">
-          <div className="mx-auto mb-6 max-w-md">
+          <div className="mb-6 w-full">
             <Image
               src="/assets/backgrounds/iceberg-desktop.webp"
               alt="Iceberg"
-              width={500}
-              height={400}
+              width={1280}
+              height={720}
               className="mx-auto hidden max-w-full md:block"
             />
             <Image

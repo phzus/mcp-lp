@@ -40,7 +40,7 @@ export function CtaButtonRed({
           className={cn(
             "flex w-full items-center justify-center gap-3 text-center",
             "rounded-lg bg-gradient-to-b from-[#D42727] to-[#720000]",
-            "min-h-12 px-0 py-4 md:px-8",
+            "min-h-12 px-0 py-6 md:px-8",
             "text-lg font-bold uppercase text-white md:text-lg md:whitespace-nowrap",
             "shadow-[0_-3px_30.459px_0_rgba(221,0,0,0.23)]",
             "transition-opacity hover:opacity-90 active:opacity-80"

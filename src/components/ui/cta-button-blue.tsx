@@ -36,7 +36,7 @@ export function CtaButtonBlue({
           className={cn(
             "flex w-full items-center justify-center gap-3 text-center",
             "rounded-lg bg-gradient-to-b from-[#278CD4] to-[#002A72]",
-            "min-h-12 px-6 py-5 md:px-8",
+            "min-h-12 px-6 py-6 md:px-8",
             "text-base font-bold uppercase text-white md:text-lg md:whitespace-nowrap",
             "shadow-[0_-3px_30.459px_0_rgba(0,107,221,0.23)]",
             "transition-opacity hover:opacity-90 active:opacity-80"
