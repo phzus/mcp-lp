@@ -85,6 +85,10 @@ export function SectionSeven() {
             </div>
           ))}
         </div>
+
+        <p className="mx-auto mt-10 max-w-2xl text-center text-sm italic text-gray-400 md:mt-14 md:text-base">
+          *Isso significa que 2 vendas que você faça já paga o investimento todo.*
+        </p>
       </div>
     </section>
   );

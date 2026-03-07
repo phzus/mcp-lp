@@ -2,7 +2,7 @@ import { IconCircle } from "@/components/ui/icon-circle";
 import { CtaButtonRed } from "@/components/ui/cta-button-red";
 
 const items = [
-  "Já entenderam que o jogo não é SÓ acertar um criativo e jogar tráfego. É saber exatamente quando escalar, quando matar e quando ressuscitar uma oferta no timing perfeito.",
+  "Querem acesso aos segredos de escala que os maiores afiliados dos EUA usam todos os dias — e que nunca chegaram no Brasil.",
   "Já entenderam que o jogo não é SÓ acertar um criativo e jogar tráfego. É saber exatamente quando escalar, quando matar e quando ressuscitar uma oferta no timing perfeito.",
   "Têm, no mínimo, R$5.000 de caixa para colocar tráfego em cima de funis já validados.",
   "São afiliados iniciantes que precisam de acompanhamento direto com quem já fatura múltiplos 8 dígitos/mês",

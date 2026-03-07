@@ -11,9 +11,9 @@ export function SectionTen() {
           milhão por dia.
         </h2>
 
-        {/* Two-column grid */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-          {/* ── Left Column: Price Card ── */}
+        {/* Centered single column */}
+        <div className="mx-auto max-w-2xl">
+          {/* ── Center Column: Price Card ── */}
           <div className="rounded-2xl bg-gradient-to-b from-[#1A0000] to-[#0A0A0A] p-6 md:p-10">
             {/* Logo */}
             <div className="mb-6 flex items-center justify-center gap-3">
@@ -60,49 +60,6 @@ export function SectionTen() {
             <CtaButtonGreen href="https://pay.kiwify.com.br/NCzEsQ8">Garantir Minha Vaga!</CtaButtonGreen>
           </div>
 
-          {/* ── Right Column: Urgency Card ── */}
-          <div className="rounded-2xl bg-white/5 p-6 backdrop-blur-sm md:p-10">
-            <p className="mb-4 text-sm italic text-[#D42727] md:text-base">
-              Mas tem mais uma coisa...
-            </p>
-            <p className="mb-6 text-sm italic text-[#D42727] md:text-base">
-              Quem garantir a vaga enquanto essa live estiver no ar recebe duas
-              vantagens que não estarão disponíveis depois:
-            </p>
-
-            <div className="mb-4 space-y-4">
-              <div className="flex items-start gap-3">
-                <span className="mt-0.5 text-lg">🔒</span>
-                <p className="text-sm text-gray-300 md:text-base">
-                  <strong className="text-white">
-                    Acesso por apenas R$2.497
-                  </strong>{" "}
-                  — valor exclusivo para quem garantir agora. Sem exceção.
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="mt-0.5 text-lg">🔒</span>
-                <p className="text-sm text-gray-300 md:text-base">
-                  <strong className="text-white">
-                    Entrada direta com CPA de $200 nas ofertas
-                  </strong>{" "}
-                  — enquanto quem entrar depois começa com $170, você já entra
-                  ganhando mais no leilão desde a primeira venda.
-                </p>
-              </div>
-            </div>
-
-            <div className="my-6 h-px bg-white/10" />
-
-            <p className="mb-3 text-sm italic text-[#D42727]">
-              O que isso significa na prática?
-            </p>
-            <p className="text-sm font-bold text-[#D42727] md:text-base">
-              Uma única venda como afiliado já paga o investimento inteiro na
-              mentoria. E a partir da segunda, é{" "}
-              <span className="underline">lucro.</span>
-            </p>
-          </div>
         </div>
       </div>
     </section>
