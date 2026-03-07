@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 interface GlassCardProps {
   children: React.ReactNode;
   className?: string;
-  /** Optional background image path (e.g. card-pilares.png) */
+  /** Optional background image path (e.g. card-pilares.webp) */
   backgroundImage?: string;
 }
 

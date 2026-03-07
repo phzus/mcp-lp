@@ -6,7 +6,7 @@ export function SectionThree() {
     <section className="relative bg-white py-12 md:py-24">
       {/* Background image */}
       <Image
-        src="/assets/backgrounds/section-3.png"
+        src="/assets/backgrounds/section-3.webp"
         alt=""
         fill
         className="object-cover opacity-10"

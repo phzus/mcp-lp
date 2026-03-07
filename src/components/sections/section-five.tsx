@@ -6,8 +6,8 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/free-mode";
 
-const carousel1 = Array.from({ length: 6 }, (_, i) => `/assets/testimonials/carousel-1/0${i + 1}.png`);
-const carousel2 = Array.from({ length: 6 }, (_, i) => `/assets/testimonials/carousel-2/0${i + 1}.png`);
+const carousel1 = Array.from({ length: 6 }, (_, i) => `/assets/testimonials/carousel-1/0${i + 1}.webp`);
+const carousel2 = Array.from({ length: 6 }, (_, i) => `/assets/testimonials/carousel-2/0${i + 1}.webp`);
 
 export function SectionFive() {
   return (

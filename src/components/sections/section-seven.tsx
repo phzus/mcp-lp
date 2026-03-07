@@ -57,7 +57,7 @@ export function SectionSeven() {
             >
               {/* Card background */}
               <Image
-                src="/assets/backgrounds/card-pilares.png"
+                src="/assets/backgrounds/card-pilares.webp"
                 alt=""
                 fill
                 className="object-cover"

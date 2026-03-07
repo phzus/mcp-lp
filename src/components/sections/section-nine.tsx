@@ -50,7 +50,7 @@ const topStrategies = [
 
 const bottomStrategies = [
   {
-    icon: "/assets/icons/pitch/01.png",
+    icon: "/assets/icons/pitch/01.webp",
     title: "ESTRATÉGIA DO FECHAMENTO AMAZON",
     desc: "Como um simples aviso de 30 segundos dentro da VSL faz com que todo afiliado de fundo de funil passe fome. O sonho de todo afiliado que deseja escalar de verdade, pois otimiza apenas as vendas do topo.",
   },
@@ -105,14 +105,14 @@ export function SectionNine() {
         <div className="mb-12 text-center md:mb-16">
           <div className="mx-auto mb-6 max-w-md">
             <Image
-              src="/assets/backgrounds/iceberg-desktop.png"
+              src="/assets/backgrounds/iceberg-desktop.webp"
               alt="Iceberg"
               width={500}
               height={400}
               className="mx-auto hidden max-w-full md:block"
             />
             <Image
-              src="/assets/backgrounds/iceberg-mobile.png"
+              src="/assets/backgrounds/iceberg-mobile.webp"
               alt="Iceberg"
               width={350}
               height={300}
