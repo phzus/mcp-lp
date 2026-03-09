@@ -6,7 +6,7 @@ export function SectionTen() {
     <section id="pricing" className="bg-[#0A0A0A] py-12 md:py-24">
       <div className="section-container">
         {/* Title above grid */}
-        <h2 className="mb-10 text-center font-tomorrow text-lg font-bold uppercase text-white md:mb-14 md:text-2xl">
+        <h2 className="mb-10 max-w-2xl mx-auto text-center font-tomorrow text-lg font-bold uppercase text-white md:mb-14 md:text-2xl">
           Acesse as estratégias dos afiliados gringos que faturam mais de R$1
           milhão por dia.
         </h2>
