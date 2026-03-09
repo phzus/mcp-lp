@@ -97,7 +97,9 @@ export function FAQ() {
         {/* WhatsApp CTA */}
         <div className="mt-12 flex justify-center">
           <a
-            href="https://wa.me/5511999999999"
+            href="https://w.app/7ns4id"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-3 rounded-full bg-[#25D366] hover:bg-[#4AE07A] transition-all px-8 py-4 font-['Helvetica',_Arial,_sans-serif] text-sm md:text-base font-bold uppercase text-black shadow-[0_0_20px_rgba(37,211,102,0.25)] hover:shadow-[0_0_30px_rgba(37,211,102,0.4)]"
           >
             ENTRAR EM CONTATO PELO WHATSAPP AQUI
